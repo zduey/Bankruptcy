@@ -1,6 +1,6 @@
 ﻿Effects of Monetary Policy on Firm Outcome
 
-Backgroun
+Background
 
 Mississippi is divided into two federal reserve system district, the northern half controlled by the St. Louis Fed and the southern half by the Atlanta Fed. During the Great Depression, the Atlanta Fed extended credit to ailing firms, while the St. Louis Fed did not. I would like to get some preliminary results to see the impact of these two different monetary policies on entry/exit of firms.
 
@@ -14,18 +14,21 @@ Tasks
 
 Pr(Exit) = fed_policy + industry +  credit_rating + size_of_firm + epsilon
 
-2. Vertically merge year to year data	
+2. Vertically merge year to year data (DONE)	
 
 3. Collect summary statistics
-- number of firms in each time period 
-- number of firms in each industry each period
-- 
-4. Identify firms who exit/enter from year to year
+- number of firms in each time period (DONE)
+- number of firms by pecuniary strength and size
+
+4. Identify number of firms who exit/enter from year to year
+- break down by federal reserve district
+- break down by pecuniary strength
+- break down by credit rating
 
 5. Data cleaning
-- Change empty values to some missing data value (NA,99, etc)
-- Correct typos in naming programmatically
+- Change empty values to some missing data value (DONE)
+- Correct typos in naming programmatically (DONE)
 - Create dummy variables for each industry and assign appropriate values
-- 
+- create additional column for fed district border (DONE)
 
 6. Visualization
